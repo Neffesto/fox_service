@@ -1,0 +1,68 @@
+@mixin heading-h1 {
+  font-weight: 800;
+  font-size: 64px;
+  color: $secondary;
+
+}
+@mixin heading-h2 {
+  font-weight: 800;
+  font-size: 58px;
+  color: $secondary;
+}
+@mixin heading-h3 {
+  font-weight: 700;
+  font-size: 48px;
+}
+@mixin heading-h4 {
+  font-weight: 700;
+  font-size: 40px;
+  color: $secondary;
+}
+@mixin heading-h5 {
+  font-weight: 700;
+  font-size: 32px;
+  color: $secondary;
+}
+@mixin heading-h6 {
+  font-weight: 600;
+  font-size: 20px;
+  color: $secondary;
+}
+
+@mixin paragraph-1-body {
+  font-weight: 600;
+  font-size: 18px;
+  color: $secondary;
+}
+@mixin paragraph-2-body {
+  font-weight: 600;
+  font-size: 16px;
+  color: $secondary;
+}
+@mixin caption {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@mixin title-01 {
+  font-weight: 700;
+  font-size: 32px;
+  color: $secondary;
+}
+@mixin title-02 {
+  font-weight: 600;
+  font-size: 24px;
+  color: $secondary;
+}
+@mixin button {
+  width: 208px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+  background: $primary;
+  border: $primary;
+  color: $additional_5;
+}
