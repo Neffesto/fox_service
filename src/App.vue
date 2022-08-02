@@ -1,30 +1,24 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <section class="container">
+    <div class="footer-press-down">
+        <HeaderMain />
+        <router-view/>
+        <FooterMain />
+    </div>
+  </section>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import HeaderMain from "@/components/header/HeaderMain";
+import FooterMain from "@/components/footer/FooterMain";
+export default {
+  components: {FooterMain, HeaderMain}
 }
+</script>
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+<style scoped lang="scss">
+  .container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
 </style>
