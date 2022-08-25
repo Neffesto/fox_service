@@ -3,8 +3,10 @@
     <div class="quote__left">
       <h2>Мы серьезно относимся к обслуживанию автомобилей</h2>
       <div class="quote__left__element">
-        <div class="quote__left__element__ico">
-          <img alt="сервис" src="../src/ico/service.png">
+        <div>
+          <div class="quote__left__element__ico">
+            <img alt="сервис" src="../src/ico/service.png">
+          </div>
         </div>
         <div class="quote__left__element__wrapper">
           <div class="quote__left__element__wrapper__heading">Удобный сервис</div>
@@ -14,8 +16,10 @@
         </div>
       </div>
       <div class="quote__left__element">
-        <div class="quote__left__element__ico">
-          <img alt="механик" src="../src/ico/mechanic.png">
+        <div>
+          <div class="quote__left__element__ico">
+            <img alt="механик" src="../src/ico/mechanic.png">
+          </div>
         </div>
         <div class="quote__left__element__wrapper">
           <div class="quote__left__element__wrapper__heading">Опытные механики</div>
@@ -25,8 +29,10 @@
         </div>
       </div>
       <div class="quote__left__element">
-        <div class="quote__left__element__ico">
-          <img alt="ценообразование" src="../src/ico/pricing.png">
+        <div>
+          <div class="quote__left__element__ico">
+            <img alt="ценообразование" src="../src/ico/pricing.png">
+          </div>
         </div>
         <div class="quote__left__element__wrapper">
           <div class="quote__left__element__wrapper__heading">Прозрачное ценообразование</div>
@@ -48,7 +54,7 @@
       <input type="text" class="quote__right__inp" placeholder="Введите свое местоположение">
       <input type="text" class="quote__right__inp" placeholder="Введите свое местоположение">
       <input type="text" class="quote__right__inp" placeholder="Ваш номер телефона">
-      <button class="quote__right__btn">Получите ваше предложение</button>
+      <button class="quote__right__btn">Получите предложение</button>
     </div>
   </section>
 </template>
@@ -66,7 +72,7 @@ export default {
     justify-content: space-between;
     background: $additional_3;
     &__left {
-      margin-right: 71px;
+      width: 624px;
       display: flex;
       flex-direction: column;
       & h2 {
@@ -111,10 +117,10 @@ export default {
       }
     }
     &__right {
+      width: 624px;
       display: flex;
       flex-direction: column;
       & h3 {
-        width: 624px;
         margin-bottom: 32px;
         @include heading-h3
       }

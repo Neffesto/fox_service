@@ -61,8 +61,37 @@
   justify-content: center;
   align-items: center;
   border-radius: 12px;
+  font-weight: 600;
+  font-size: 18px;
   cursor: pointer;
   background: $primary;
   border: $primary;
   color: $additional_5;
+}
+@mixin offer-block {
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $additional_5;
+  @include title-02;
+  & svg {
+    margin-bottom: 16px;
+    fill: $secondary;
+    & path {
+      fill: $secondary;
+    }
+  }
+}
+@mixin offer-block-hover {
+  background: $primary;
+  color: #FFFFFF;
+  & svg {
+    margin-bottom: 16px;
+    fill: $additional_5;
+    & path {
+      fill: $additional_5;
+    }
+  }
 }
