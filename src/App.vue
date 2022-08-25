@@ -17,8 +17,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .container {
-    max-width: 1920px;
-    margin: 0 auto;
-  }
+  //.container {
+  //  max-width: 1920px;
+  //  margin: 0 auto;
+  //}
 </style>

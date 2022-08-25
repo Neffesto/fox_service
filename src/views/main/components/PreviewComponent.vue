@@ -4,9 +4,9 @@
       <h1>
         Получите услугу обслуживания вашего автомобиля онлайн в одном месте
       </h1>
-      <button class="preview__left__btn" href="tel:+18002652452">
+      <a class="preview__left__btn" href="tel:+18002652452">
         Закажите услугу
-      </button>
+      </a>
       <div class="preview__left__work">
         <div class="preview__left__work__left">
           <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,6 +42,7 @@ export default {
     justify-content: space-between;
 
     &__left {
+      width: 624px;
       h1 {
         @include heading-h1
       }
@@ -59,6 +60,9 @@ export default {
           align-items: center;
         }
       }
+    }
+    &__right {
+      width: 624px;
     }
   }
 </style>
