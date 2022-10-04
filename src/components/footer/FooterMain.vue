@@ -35,7 +35,7 @@ export default {
     }
     &__nav {
       &__element {
-        color: #FFFFFF;
+        color: $additional_5;
       }
       &__element:not(:last-child) {
         margin-right: 45px;
