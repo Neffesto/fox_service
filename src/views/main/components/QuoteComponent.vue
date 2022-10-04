@@ -115,6 +115,12 @@ export default {
           fill: $secondary;
         }
       }
+      &__btn:hover {
+        color: $primary;
+        & svg {
+          fill: $primary;
+        }
+      }
     }
     &__right {
       width: 624px;

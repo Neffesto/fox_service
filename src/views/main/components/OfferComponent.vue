@@ -60,8 +60,9 @@ export default {
     }
     &__wrapper {
       display: grid;
-      grid-template-columns: 316px 316px 316px 316px;
-      gap: 8px;
+      justify-content: center;
+      grid-template-columns: 312px 312px 312px 312px;
+      gap: 5px;
     }
     &__btn {
       margin-top: 32px;
@@ -72,6 +73,12 @@ export default {
       & svg {
         margin-left: 21px;
         fill: $secondary;
+      }
+    }
+    &__btn:hover {
+      color: $primary;
+      & svg {
+        fill: $primary;
       }
     }
   }

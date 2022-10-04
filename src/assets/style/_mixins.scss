@@ -2,7 +2,6 @@
   font-weight: 800;
   font-size: 64px;
   color: $secondary;
-
 }
 @mixin heading-h2 {
   font-weight: 800;
@@ -28,11 +27,15 @@
   font-size: 20px;
   color: $secondary;
 }
-
 @mixin paragraph-1-body {
   font-weight: 600;
   font-size: 18px;
   color: $secondary;
+}
+@mixin paragraph-1-bodyBlack {
+  font-weight: 600;
+  font-size: 18px;
+  color: $additional_5;
 }
 @mixin paragraph-2-body {
   font-weight: 600;
@@ -43,7 +46,6 @@
   font-weight: 500;
   font-size: 16px;
 }
-
 @mixin title-01 {
   font-weight: 700;
   font-size: 32px;
@@ -53,6 +55,11 @@
   font-weight: 600;
   font-size: 24px;
   color: $secondary;
+}
+@mixin title-02Black {
+  font-weight: 600;
+  font-size: 24px;
+  color: $additional_5;
 }
 @mixin button {
   width: 208px;
@@ -66,6 +73,20 @@
   cursor: pointer;
   background: $primary;
   border: $primary;
+  color: $additional_5;
+}
+@mixin button-black {
+  width: 208px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  background: $secondary;
+  border: $secondary;
   color: $additional_5;
 }
 @mixin offer-block {
