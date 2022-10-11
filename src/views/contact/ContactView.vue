@@ -1,12 +1,14 @@
 <template>
   <section class="contact">
-    Контакты
+    <FeedbackComponent/>
   </section>
 </template>
 
 <script>
+import FeedbackComponent from "@/views/contact/components/FeedbackComponent";
 export default {
-  name: "ContactView"
+  name: "ContactView",
+  components: {FeedbackComponent}
 }
 </script>
 

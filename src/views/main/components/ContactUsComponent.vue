@@ -19,16 +19,17 @@ export default {
 <style scoped lang="scss">
 .contact-us {
   display: flex;
+  justify-content: space-between;
   &__bg-left {
-    width: 976px;
+    width: 960px;
     height: 502px;
     position: relative;
     background: url("../src/img/image002.jpg");
     background-repeat: no-repeat;
     &__block {
-      width: 729px;
+      width: 760px;
       height: 502px;
-      margin-left: 318px;
+      margin-left: 320px;
       position: absolute;
       background: $primary;
       & h3 {
@@ -38,12 +39,12 @@ export default {
       }
       &__btn {
         margin-left: 80px;
-        @include button-black
+        @include button-black;
       }
     }
   }
   &__bg-right {
-    width: 976px;
+    width: 910px;
     height: 502px;
     background: url("../src/img/image003.jpg");
     background-repeat: no-repeat;
