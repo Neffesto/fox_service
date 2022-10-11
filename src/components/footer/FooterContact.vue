@@ -40,22 +40,20 @@ export default {
 
 <style scoped lang="scss">
 .footer-contact {
+  padding: 128px 320px;
   display: flex;
   justify-content: space-between;
+  opacity: 0.98;
   background: $secondary;
   &__left {
-    width: 976px;
-    padding-top: 128px;
+    width: 624px;
     & h3 {
-      margin-left: 320px;
-      margin-right: 193px;
       color: $additional_5;
       @include heading-h3
     }
   }
   &__right {
-    width: 976px;
-    padding-top: 128px;
+    width: 624px;
     &__element {
       margin-bottom: 32px;
       &__heading {
